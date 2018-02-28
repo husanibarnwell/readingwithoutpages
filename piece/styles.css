@@ -1,24 +1,34 @@
-html, body {
-	height: 100%;
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 
-body {
-	overflow: hidden;
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
-.box {
-	max-width: 70vw;
-	padding: 30px;
-	margin: 0 auto;
-	position: relative;
-	top: 50%;
-	font-size: 30px;
-	line-height: 1.5;
-	transform: translateY(-50%);
-	perspective: 400px;
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
 }
 
-.source {
-	color: skyblue;
-	margin: 0 auto;
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
