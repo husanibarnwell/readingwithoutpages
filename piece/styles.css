@@ -14,7 +14,7 @@ main {
 h1 {
   text-align: center;
   color: rgb(146, 3, 3);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: georgia, Cochin, cambria, Times, 'Times New Roman', serif;
 }
 p {
   font-size: 13px;
@@ -83,7 +83,7 @@ section {
 }
 
 .active, .collapsible:hover {
-  background-color: rgb(104, 1, 1);
+  background-color: rgb(122, 4, 4);
 }
 
 .collapsible:after {
