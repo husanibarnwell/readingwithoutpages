@@ -20,7 +20,7 @@ p {
   font-size: 13px;
 }
 .firstcharacter {
-  color: #rgb(146, 3, 3);
+  color: rgb(146, 3, 3);
   float: left;
   font-family: Georgia;
   font-size: 90px;
@@ -61,7 +61,7 @@ label::before {
   transition: height 1.5s;
   background-image: url("fall-of-rome2.jpg");
   background-size: 800px;
-  color: rgb(136, 13, 13);
+  color: rgb(146, 3, 3);
 }
 section {
   padding: 0 20px;
