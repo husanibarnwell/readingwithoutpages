@@ -13,6 +13,7 @@ main {
 }
 h1 {
   text-align: center;
+  color: rgb(146, 3, 3);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p {
@@ -70,7 +71,7 @@ section {
 }
 
 .collapsible {
-  background-color: #777;
+  background-color: rgb(70, 40, 1);
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -82,7 +83,7 @@ section {
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: rgb(104, 1, 1);
 }
 
 .collapsible:after {
