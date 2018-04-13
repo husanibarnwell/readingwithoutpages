@@ -18,10 +18,10 @@ h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 72px;
   text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 p {
   font-size: 13px;
@@ -49,6 +49,10 @@ label {
 }
 label:hover {
   color: #000;
+
+.li {
+font-size: 40px;
+}
 }
 /* label::before {
   font-family: Consolas, monaco, monospace;
