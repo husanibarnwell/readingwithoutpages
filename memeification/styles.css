@@ -14,9 +14,14 @@ main {
 h1 {
   text-align: left;
   margin: 0 0 0 20px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 72px;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 p {
   font-size: 13px;
