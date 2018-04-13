@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  font-family: "Open Sans", Arial;
+  background:  rgb(255, 255, 255);
+}
+main {
+  background: #EEE;
+  width: 600px;
+  margin: 20px auto;
+  padding: 10px 0;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+h1 {
+  text-align: left;
+  margin: 0 0 0 20px;
+  color: rgb(0, 0, 0);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 72px;
+}
+p {
+  font-size: 13px;
+}
+.firstcharacter {
+  color: rgb(146, 3, 3);
+  float: left;
+  font-family: Georgia;
+  font-size: 90px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+input {
+  display: none;
+  visibility: hidden;
+}
+label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: #666;
+}
+label:hover {
+  color: #000;
+}
+/* label::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%); */
+}
+/* #expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 1.5s;
+  background-image: url("fall-of-rome2.jpg");
+  background-size: 800px;
+  color: rgb(146, 3, 3);
+} */
+section {
+  padding: 0 20px;
+}
+#toggle:checked ~ #expand {
+  height: 420px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+
+.collapsible {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 50px 20px 20px 556px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  outline: none;
+  font-size: 36px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: max-height 0.2s ease-out;
+  background-color: #ffffff;
+}
