@@ -22,6 +22,7 @@ h1 {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+    line-height: 90%;
 }
 p {
   font-size: 13px;
@@ -49,10 +50,6 @@ label {
 }
 label:hover {
   color: #000;
-
-.li {
-font-size: 40px;
-}
 }
 /* label::before {
   font-family: Consolas, monaco, monospace;
@@ -65,7 +62,7 @@ font-size: 40px;
   height: 20px;
   margin-right: 3px;
   background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%); */
-}
+/* } */
 /* #expand {
   height: 0px;
   overflow: hidden;
