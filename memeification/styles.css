@@ -25,9 +25,15 @@ h1 {
     line-height: 90%;
 }
 p {
-  font-size: 13px;
+  font-size: 36px;
+  line-height: 72px;
+  /* margin-right: 400px; */
 }
-.firstcharacter {
+li {
+  font-size: 36px;
+  line-height: 72px;
+}
+/* .firstcharacter {
   color: rgb(146, 3, 3);
   float: left;
   font-family: Georgia;
@@ -36,6 +42,18 @@ p {
   padding-top: 4px;
   padding-right: 8px;
   padding-left: 3px;
+} */
+/* p::first-letter {
+  font-weight: bold;
+  color: rgb(0, 68, 255);
+  font-size: 72px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  line-height: 90%; */
 }
 input {
   display: none;
