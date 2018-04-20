@@ -11,6 +11,28 @@ main {
   padding: 10px 0;
   box-shadow: 0 3px 5px rgba(0,0,0,0.3);
 }
+.slideshow-wrapper {
+  display: inline-block;
+  width: 400px;
+}
+.static-img{
+  position:fixed;
+  top:20px;
+  right:20px;
+  width: 400px;
+}
+.slideshow-wrapper img{
+  height: 300px;
+}
+.imageslideshow {
+  width: 100%;
+}
+.masthead {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
 h1 {
   text-align: left;
   margin: 0 0 0 20px;
@@ -54,7 +76,7 @@ li {
   -1px 1px 0 #000,
   1px 1px 0 #000;
   line-height: 90%; */
-}
+/* } */
 input {
   display: none;
   visibility: hidden;

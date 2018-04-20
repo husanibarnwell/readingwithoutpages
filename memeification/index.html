@@ -3,17 +3,28 @@
   <head>
     <title>Meme-ification</title>
     <link href="styles.css" media="all" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="shortcut icon" href="" />
+    <link rel="stylesheet" href="src/selection-sharer.css" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>     
-
+<img class='static-img'/>
+<div class="masthead">
     <h1>MEME-IFICATION</h1>
     <h1>MEME-IFICATION</h1>
     <h1>MEME-IFICATION</h1>
     <h1>MEME-IFICATION</h1>
     <h1>MEME-IFICATION</h1>
-
+</div> 
+    <div class="slideshow-wrapper">
+      <div class="imageslideshow">
+        <div><img src="img/doge.jpg"/></div>
+        <div><img src="img/scumbag_steve_dumps_gf.jpg"/></div>
+      </div>
+    </div>
     <button class="collapsible">A Unified Theory of Meme Death<br/>by Lauren Michele Jackson</button>
         <div class="content">
             <img src="img/badluckbrian_blue.jpg"/>
@@ -32,7 +43,7 @@
                 
             <p>And in 2017, it’s clear that the doomsday crew vastly underestimated internet users’ creativity. Increased mobility and access across platforms and communities has brought to the surface some of the funniest and weirdest content the web has ever known. Contrary to what Poole and Baio implied, weird humor and memes are hardly the exclusive domain of Redditors or the mostly white tech bros who populated ROFLCon. Today, many of the internet’s favorite memes come from fringe or ostracized communities—often from black communities, for whom oddball humor has long been an art form.</p>
                 
-            <p>While internet memes categorically remain alive and well, individual memes do seem to die off faster than in Poole’s “good ol’ days.” They just don’t last like they used to: Compare the lifespans of say, Bad Luck Brian to Arthur’s clenched fist or confused Mr. Krabs. But if overexposure is partially to blame for their demise, it certainly doesn’t tell the whole story. Nor can it alone account for the varied lifespans amongst concurrent memes. Crying Jordan lasted years; did Damn Daniel even last two weeks? Salt Bae took over social media in January 2017, but was quickly overshadowed by gifs of Drew Scanlon (“white guy blinking”) and rapper Conceited (“black guy duck face”), which lasted throughout the spring.</p>
+            <p>While internet memes categorically remain alive and well, individual memes do seem to die off faster than in Poole’s “good ol’ days.” They just don’t last like they used to: Compare the lifespans of say, Bad Luck Brian to Arthur’s clenched fist or confused Mr. Krabs. But if overexposure is partially to blame for their demise, it certainly doesn’t tell the whole story. Nor can it alone account for the varied lifespans amongst concurrent memes. Crying Jordan lasted years; did Damn Daniel even last two weeks? <span data-img="img/saltbae.jpg" class="hover-img">Salt Bae</span> took over social media in January 2017, but was quickly overshadowed by gifs of Drew Scanlon (“white guy blinking”) and rapper Conceited (“black guy duck face”), which lasted throughout the spring.</p>
                 
                 
             <p>Why do some memes last longer than others? Are they just funnier? Better? And if so, what makes a meme better? The answer lies not in traditional memetics, but in the study of jokes.</p>
@@ -305,7 +316,14 @@
 
     </section>
 </div>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="src/selection-sharer.js"></script>
     <script src="app.js"></script>
+
 
 
     

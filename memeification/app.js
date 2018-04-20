@@ -12,3 +12,20 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+$('.imageslideshow').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+$('p').selectionSharer();
+
+$('.hover-img').on('mouseover',function(){
+  //stuff you want to happen
+  
+  var img = $(this).attr('data-img');
+ 
+  $('.static-img').attr('src', img)
+})
