@@ -11,22 +11,14 @@ main {
   padding: 10px 0;
   box-shadow: 0 3px 5px rgba(0,0,0,0.3);
 }
-.slideshow-wrapper {
-  display: inline-block;
-  width: 400px;
-}
+
 .static-img{
   position:fixed;
   top:20px;
   right:20px;
   width: 400px;
 }
-.slideshow-wrapper img{
-  height: 300px;
-}
-.imageslideshow {
-  width: 100%;
-}
+
 .masthead {
   display: inline-block;
   width: 40%;
@@ -49,34 +41,13 @@ h1 {
 p {
   font-size: 36px;
   line-height: 72px;
-  /* margin-right: 400px; */
+  margin: 18px 10%;
 }
 li {
   font-size: 36px;
   line-height: 72px;
 }
-/* .firstcharacter {
-  color: rgb(146, 3, 3);
-  float: left;
-  font-family: Georgia;
-  font-size: 90px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-} */
-/* p::first-letter {
-  font-weight: bold;
-  color: rgb(0, 68, 255);
-  font-size: 72px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
-  line-height: 90%; */
-/* } */
+
 input {
   display: none;
   visibility: hidden;
@@ -91,26 +62,7 @@ label {
 label:hover {
   color: #000;
 }
-/* label::before {
-  font-family: Consolas, monaco, monospace;
-  font-weight: bold;
-  font-size: 15px;
-  content: "+";
-  vertical-align: text-top;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-right: 3px;
-  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%); */
-/* } */
-/* #expand {
-  height: 0px;
-  overflow: hidden;
-  transition: height 1.5s;
-  background-image: url("fall-of-rome2.jpg");
-  background-size: 800px;
-  color: rgb(146, 3, 3);
-} */
+
 section {
   padding: 0 20px;
 }

@@ -13,19 +13,13 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-$('.imageslideshow').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 5000,
-});
-
 $('p').selectionSharer();
 
-$('.hover-img').on('mouseover',function(){
-  //stuff you want to happen
-  
+$('.hover-img').hover(function(){
   var img = $(this).attr('data-img');
- 
+  $('.static-img').show();
   $('.static-img').attr('src', img)
-})
+},function(){
+$('.static-img').hide();
+
+});
